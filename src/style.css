@@ -1,0 +1,29 @@
+.App {
+    background-color: silver;
+    height: 100vh;
+    width : 100vw;
+    display : flex;
+    /* margin : 0;
+    padding : 0;
+    display : flex; */
+}
+
+.container {
+    background-color: white;
+    width : 50vw;
+    max-width: 350px;
+    margin : auto;
+    height: 80vh;
+    padding : 16px;
+    border : 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container > div > hr {
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF6EC;
+    width : auto;
+    height: auto;
+}
+
